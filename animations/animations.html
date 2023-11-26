@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="page-1" class="page">
+      <h1>Sayfa 1</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit
+        ullam veritatis deleniti. Dolores, reiciendis. Quaerat ipsa fugiat,
+        minima molestiae odit tempora eligendi vel voluptatum est omnis ratione
+        ad perspiciatis deleniti!
+      </p>
+      <div><a href="#page-2 " class="btn">Sonraki Sayfa</a></div>
+    </section>
+    <section id="page-2" class="page">
+      <h1>Sayfa 2</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit
+        ullam veritatis deleniti. Dolores, reiciendis. Quaerat ipsa fugiat,
+        minima molestiae odit tempora eligendi vel voluptatum est omnis ratione
+        ad perspiciatis deleniti!
+      </p>
+      <div>
+        <a href="#page-1" class="btn">Önceki Sayfa</a>
+        <a href="#page-3" class="btn">Sonraki Sayfa </a>
+      </div>
+    </section>
+    <section id="page-3" class="page">
+      <h1>Sayfa 3</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit
+        ullam veritatis deleniti. Dolores, reiciendis. Quaerat ipsa fugiat,
+        minima molestiae odit tempora eligendi vel voluptatum est omnis ratione
+        ad perspiciatis deleniti!
+      </p>
+      <div><a href="#page-2" class="btn">Önceki Sayfa</a></div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".btn").on("click", function (event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                window.location.hash = hash;
+              }
+            );
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
