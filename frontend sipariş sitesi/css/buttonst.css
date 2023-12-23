@@ -1,0 +1,155 @@
+.butn {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  transition-duration: 0.6s;
+  width: 100%;
+}
+
+.butn-primary {
+  background: coral;
+  color: #fff;
+  border: 2px solid coral;
+}
+
+.butn-primary:hover {
+  background: #fff;
+  color: #fc997c;
+  border: 2px solid #fc997c;
+}
+
+.butn-outline-primary {
+  background: #fff;
+  color: #fc997c;
+  border: 2px solid #fc997c;
+}
+
+.butn-outline-primary:hover {
+  background: #fc997c;
+  color: #fff;
+  border: 2px solid #fc997c;
+}
+
+.butn-secondary {
+  background: coral;
+  color: #fff;
+  border: 2px solid coral;
+}
+
+.butn-secondary:hover {
+  background: #fff;
+  color: coral;
+  border: 2px solid coral;
+}
+
+.butn-outline-secondary {
+  background: #fff;
+  color: coral;
+  border: 2px solid coral;
+}
+
+.butn-outline-secondary:hover {
+  background: coral;
+  color: #fff;
+  border: 2px solid coral;
+}
+
+.ürünbutn {
+  margin-right: 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  transition-duration: 0.6s;
+  width: 20%;
+  margin-top: 3%;
+}
+
+.ürünbutn-primary {
+  background: coral;
+  color: #fff;
+  border: 2px solid coral;
+}
+
+.ürünbutn-primary:hover {
+  background: #fff;
+  color: #fc997c;
+  border: 2px solid #fc997c;
+}
+
+.ürünbutn-outline-primary {
+  background: #fff;
+  color: #fc997c;
+  border: 2px solid #fc997c;
+}
+
+.ürünbutn-outline-primary:hover {
+  background: #fc997c;
+  color: #fff;
+  border: 2px solid #fc997c;
+}
+
+.ürünbutn-secondary {
+  background: coral;
+  color: #fff;
+  border: 2px solid coral;
+}
+
+.ürünbutn-secondary:hover {
+  background: #fff;
+  color: coral;
+  border: 2px solid coral;
+}
+
+.ürünbutn-outline-secondary {
+  background: #fff;
+  color: coral;
+  border: 2px solid coral;
+}
+
+.ürünbutn-outline-secondary:hover {
+  background: coral;
+  color: #fff;
+  border: 2px solid coral;
+}
+.quantity-input {
+  width: 45px;
+  height: 36px;
+  text-align: center;
+  float: right;
+  font-size: 18px;
+  border: 5px solid coral;
+
+  color: #ff7f50;
+  border: coral;
+}
+
+.quantity-minus,
+.quantity-plus {
+  color: #fff;
+  border: none;
+  width: 45px;
+  height: 40px;
+  font-size: 20px;
+  float: right;
+}
+
+.quantity-minus {
+  background-color: coral;
+  border-radius: 25% 25% 25% 25%;
+}
+
+.quantity-plus {
+  margin-right: 7%;
+  background-color: coral;
+  border-radius: 25% 25% 25% 25%;
+}

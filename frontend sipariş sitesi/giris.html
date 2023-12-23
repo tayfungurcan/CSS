@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/stylest.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="images/pizza.png" type="image/x-icon" >
+    <title>Giriş Ekranı</title>
+  </head>
+  <body class="arkaplan">
+    <nav class="navbar-expand-sm navbar navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a href="anasayfa.html" class="navbar-brand" style="font-size: larger"
+          >Tayfun Pizza</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item header-menu-basliklari">
+              <a href="cazip_pizzalar.html" class="nav-link active"
+                >Bütün Pizzalar</a
+              >
+            </li>
+
+            <li class="nav-item header-menu-basliklari">
+              <a href="icecekler.html" class="nav-link active">Diğer Ürünler</a>
+            </li>
+            <li class="nav-item header-menu-basliklari">
+              <a href="giris.html" class="nav-link active">Giriş</a>
+            </li>
+            <a href="sepet.html">
+              <button class="bg-dark" type="button " style="color: white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="currentColor"
+                  class="bi bi-basket-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"
+                  />
+                </svg>
+              </button>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <section
+    id="giriş"
+      class="vh-100"
+      style="background-image: url('pizza-arkaplan.jpeg')"
+    >
+      <div class="container py-5 h-1000">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card shadow-2-strong" style="border-radius: 1rem">
+              <div class="card-body p-5 text-center">
+                <h3 class="mb-5">Kullanıcı Girişi</h3>
+
+                <div class="form-outline mb-4">
+                  <input
+                    type="email"
+                    id="typeEmailX-2"
+                    class="form-control form-control-lg"
+                  />
+                  <label class="form-label" for="typeEmailX-2">Email</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input
+                    type="password"
+                    id="typePasswordX-2"
+                    class="form-control form-control-lg"
+                  />
+                  <label class="form-label" for="typePasswordX-2">Parola</label>
+                </div>
+
+                <div class="form-check d-flex justify-content-start mb-4">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="form1Example3"
+                  />
+                  <label class="form-check-label"> Parolamı Hatırla </label>
+                </div>
+
+                <button class="btn btn-warning btn-lg btn-block" type="submit">
+                  Giriş Yap
+                </button>
+
+                <hr class="my-4" />
+
+                <div>
+                  <div>
+                    <p class="mb-0">
+                      Hesabınız Yok Mu?
+                      <a href="kayit.html" class="text-50 fw-bold"
+                        >Kayıt Olun!</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     
+    <footer class="page-footer font-small stylish-color-white pt-4 bg-dark">
+      <div class="container text-center text-md-left">
+        <div class="row">
+          <hr class="clearfix w-100 d-md-none" />
+
+          <div class="col-md-2 mx-auto">
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Kurumsal</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="hakkimizda.html">Hakkımızda</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+
+          <hr class="clearfix w-100 d-md-none" />
+
+          <div class="col-md-2 mx-auto">
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Yardım</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="iletişim.html">İletişim</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+
+          
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+<a href="#">
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook"> </i>
+          </a>
+        </li>
+      </a>
+      <a href="#">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+      </a>
+        <a href="#">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-instagram"> </i>
+          </a>
+        </li>
+      </a>
+      </ul>
+      <hr />
+      <p style="color: white">
+        Fiyatlarımız, Tayfun Pizza’nın tavsiye ettiği ürün satış fiyatlarıdır.
+      </p>
+      <p style="color: white">
+        Pizzalarımızda kullandığımız sosis, sucuk, küp sucuk, pepperoni, New
+        York pepperoni, misket kebap, jambon ürünleri piliç ve/veya hindi
+        etinden, döner eti kıymadan üretilmiştir.
+      </p>
+     
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
